@@ -7,7 +7,7 @@ class Kernel
 
     public static function run(){
 
-        $type = "film";
+        $type = "anime";
         $action = "index";
 
 
@@ -22,9 +22,6 @@ class Kernel
         $controller = new $controllerName();
 
         $controller->$action();
-
-
-
 
         }
 
